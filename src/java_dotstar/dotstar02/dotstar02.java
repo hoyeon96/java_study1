@@ -1,0 +1,18 @@
+package java_dotstar.dotstar02;
+
+public class dotstar02 {
+		public static void main(String[] args) {
+			
+			for(int i = 0; i < 5; i++) {
+				
+				for(int j = 5 ; j > i; j--) {
+					
+					System.out.print("*");
+				}
+				
+				System.out.println();
+				
+			}
+		}
+
+	}
